@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom'
+
 
 export const InfoContainer = styled.div`
   color: #fff;
@@ -76,6 +78,29 @@ export const BtnWrap = styled.div`
   display:flex;
   justify-content: flex-start;
 `;
+
+export const ButtonContact = styled(LinkR)`
+  border-radius: 50px;
+  background: ${({primary}) => (primary ?  '#71C6FF' : '#0F265C')};
+  white-space: nowrap;
+  padding: ${({big}) =>  (big ? '14px  48px' : '12px 30px')};
+  color: ${({dark}) =>  (dark ? '#0F265C' : '#fff')};
+  font-size:${({fontBig}) =>  (fontBig ? '20px' : '16px')};
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: ${({primary}) => (primary ?  '#fff' : '#71C6FF')};
+
+  }
+`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
