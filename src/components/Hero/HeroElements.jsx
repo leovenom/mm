@@ -37,7 +37,8 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #232a34;
+  background:rgba(15, 38, 92, 0.5);
+  filter: brightness(50%);
 `
 export const HeroContent = styled.div`
   z-index: 3;
