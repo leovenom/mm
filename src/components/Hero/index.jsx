@@ -16,11 +16,11 @@ const Hero = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1> Virtual Banking Make Easy</HeroH1>
-        <HeroP>Sign up for a new accoun today and recive $250 in credit towards your next payment</HeroP>
+        <HeroH1>Soluções contábeis para você e sua empresa</HeroH1>
+        <HeroP>Escritório de contabilidade gerencial com mais de 20 anos de experiência no Rio de Janeiro</HeroP>
         <HeroBtnWrapper>
-          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-            Get Started {hover ? <ArrowForward /> : <ArrowRight/>}
+          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+          Conheça nossos serviços {hover ? <ArrowForward /> : <ArrowRight/>}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
