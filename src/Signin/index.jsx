@@ -12,9 +12,9 @@ const SignIn = () => {
               <FormH1>Fale conosco</FormH1>
               <FormLabel htmlFor='for'>Email</FormLabel>
                 <FormInput htmlFor='email' required />
-              <FormLabel htmlFor='for'>Password</FormLabel>
+              <FormLabel htmlFor='for'>Adicionar um assunto</FormLabel>
                 <FormInput htmlFor='password' required />
-              <FormButton type='submit'>Continue</FormButton>
+              <FormButton type='submit'>Enviar</FormButton>
               <Text>Forgot password</Text>
             </Form>
           </FormContent>
