@@ -15,7 +15,7 @@ const SignIn = () => {
               <FormLabel htmlFor='for'>Adicionar um assunto</FormLabel>
                 <FormInput htmlFor='password' required />
               <FormButton type='submit'>Enviar</FormButton>
-              <Text>Forgot password</Text>
+              <Text>Obrigado</Text>
             </Form>
           </FormContent>
         </FormWrap>
