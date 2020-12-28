@@ -78,9 +78,16 @@ export const FormLabel = styled.label`
   color: #fff;
 `
 export const FormInput = styled.input`
+  padding: 14px 16px;
+  margin-bottom: 28px;
+  border-radius: 4px;
+`
+export const FormInputText = styled.textarea`
   padding: 16px 16px;
   margin-bottom: 32px;
   border-radius: 4px;
+  max-height: 250px;
+  max-width: 336px;
 `
 export const FormButton = styled.button`
   background: #71C6FF;
