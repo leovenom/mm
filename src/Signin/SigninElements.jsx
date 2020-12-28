@@ -17,7 +17,7 @@ export const Container = styled.div`
   );
 `
 export const FormWrap = styled.div`
-  height: 98%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +86,7 @@ export const FormInputText = styled.textarea`
   padding: 16px 16px;
   margin-bottom: 32px;
   border-radius: 4px;
-  max-height: 300px;
+  max-height: 250px;
   max-width: 336px;
 `
 export const FormButton = styled.button`
