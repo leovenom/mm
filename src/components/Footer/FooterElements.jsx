@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
+import { Link as LinkS } from 'react-scroll'
 
 export const FooterContainer = styled.footer`
   background-color: #0F265C;
@@ -61,6 +62,31 @@ export const FooterLink = styled(Link)`
     transition: 0.3s ease-in-out;
   }
 `
+export const FooterLinkP = styled(LinkS)`
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+
+  &:hover {
+    color: #71C6FF;
+    transition: 0.3s ease-in-out;
+  }
+`
+export const FooterLinkMap = styled.a`
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
+
+  &:hover {
+    color: #71C6FF;
+    transition: 0.3s ease-in-out;
+  }
+`
+
 export const SocialMedia = styled.section`
   max-width: 1000px;
   width: 100%;
