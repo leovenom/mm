@@ -27,7 +27,7 @@ const Footer = () => {
                   Recreio dos Bandeirantes, 22790-701
                   Rio de Janeiro/RJ
                 </FooterLinkMap>
-            </FooterLinkItems>
+            </FooterLinkItems>©
           </FooterLinkWrapper>
 
           <FooterLinkWrapper>
