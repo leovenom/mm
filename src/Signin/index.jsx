@@ -35,16 +35,16 @@ const SignIn = () => {
             <Form onSubmit={sendEmail}>
               <FormH1>Fale conosco</FormH1>
               <FormLabel htmlFor='for'>Nome</FormLabel>
-                <FormInput htmlFor='nome' name='user_nome' required />
+                <FormInput htmlFor='nome' name='user_nome' placeholder="Seu nome" required />
 
               {/* <FormLabel htmlFor='for' name='user_contato'>Telefone</FormLabel>
                 <FormInput htmlFor='contato' required /> */}
 
               <FormLabel htmlFor='for'>E-mail</FormLabel>
-                <FormInput htmlFor='email' type='email' name='user_email' required />
+                <FormInput htmlFor='email' type='email' name='user_email' placeholder="contato@email.com" required />
 
               <FormLabel htmlFor='for'>Mensagem</FormLabel>
-                <FormInputText htmlFor='mensagem' name="user_message" required />
+                <FormInputText htmlFor='mensagem' name="user_message" placeholder="Escreva aqui sua mensagem" required />
               <FormButton type='submit' value='send'>Enviar</FormButton>
             </Form>
           </FormContent>
