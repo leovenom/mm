@@ -87,7 +87,7 @@ export const FormInputText = styled.textarea`
   margin-bottom: 32px;
   border-radius: 4px;
   max-height: 250px;
-  max-width: 336px;
+  resize: vertical;
 `
 export const FormButton = styled.button`
   background: #71C6FF;
