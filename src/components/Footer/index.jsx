@@ -37,12 +37,6 @@ const Footer = () => {
                 <FooterLinkMap href='https://wa.link/c4ijlu'>WhatsApp <FaWhatsapp /> </FooterLinkMap>
                 <FooterLink to='/'>contato@macedoemuzzio.com.br</FooterLink>
             </FooterLinkItems>
-            {/* <FooterLinkItems>
-              <FooterLinkTitle>Social Media</FooterLinkTitle>
-
-                <FooterLink to='/'>Youtube</FooterLink>
-                <FooterLink to='/'>Twitter</FooterLink>
-            </FooterLinkItems> */}
           </FooterLinkWrapper>
         </FooterLinkContainer>
         <SocialMedia>
