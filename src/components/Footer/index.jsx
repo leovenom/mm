@@ -29,7 +29,6 @@ const Footer = () => {
                 </FooterLinkMap>
             </FooterLinkItems>©
           </FooterLinkWrapper>
-
           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Contatos</FooterLinkTitle>
