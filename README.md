@@ -1,11 +1,5 @@
 # M&M
 
-<a href="https://leonardt.eu">
- <p align="center">
-  <img src="?w="350" alt="Profile"
- </p>
-</a>
-
 
 # Getting Started with Create React App
 
