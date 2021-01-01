@@ -103,7 +103,6 @@ export const SocialMediaWrap = styled.div`
     flex-direction: column;
   }
 `
-
 export const SocialLogo = styled(Link)`
   color: #fff;
   justify-self: start;

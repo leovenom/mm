@@ -27,7 +27,7 @@ const Navbar = ({ toggle }) => {
     <IconContext.Provider value={{ color: '#fff'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>M&M</NavLogo>
+          <NavLogo to='/' onClick={toggleHome}>M&M<img src="./images/svg-1.svg" alt="bug" height={100} /></NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -54,7 +54,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Fale conosco</NavBtnLink>
+            <NavBtnLink to='/contact'>Fale conosco</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

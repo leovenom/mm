@@ -13,7 +13,7 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <ButtonContact to='/signin'
+                  <ButtonContact to='/contact'
                   smooth={true}
                   duration={500}
                   spy={true}

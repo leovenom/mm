@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaLinkedin, FaMedium, FaWhatsapp } from 'react-icons/fa'
+import { FaFacebookSquare, FaLinkedin, FaMedium, FaWhatsapp } from 'react-icons/fa'
 import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights, FooterLinkP, FooterLinkMap } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -17,7 +17,7 @@ const Footer = () => {
               <FooterLinkTitle>Macedo & Muzzio</FooterLinkTitle>
                 <FooterLinkP to='signup'
                   smooth={true} duration={500} spy={true} exact='true' offset={-80}>Quem somos</FooterLinkP>
-                <FooterLink to='/signin'>Fale conosco</FooterLink>
+                <FooterLink to='/contact'>Fale conosco</FooterLink>
                 <FooterLinkP to='services'smooth={true} duration={500} spy={true} exact='true' offset={-80}>Nossos serviços</FooterLinkP>
             </FooterLinkItems>
             <FooterLinkItems>
@@ -27,7 +27,7 @@ const Footer = () => {
                   Recreio dos Bandeirantes, 22790-701
                   Rio de Janeiro/RJ
                 </FooterLinkMap>
-            </FooterLinkItems>©
+            </FooterLinkItems>
           </FooterLinkWrapper>
           <FooterLinkWrapper>
             <FooterLinkItems>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <FaLinkedin />
               </SocialIconLink>
               <SocialIconLink href='//www.facebook.com/macedoemuzzio/' target='_blank' arial-label='Facebook'>
-                <FaFacebook />
+                <FaFacebookSquare/>
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
