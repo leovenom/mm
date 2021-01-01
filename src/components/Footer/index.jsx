@@ -41,7 +41,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              M&M
+            <img src="./images/MM_Logo_M_Branco.svg" alt="logo" height={65} />
             </SocialLogo>
             <WebsiteRights>© {new Date().getFullYear()} Macedo & Muzzio Contabilidade Gerencial
             </WebsiteRights>
