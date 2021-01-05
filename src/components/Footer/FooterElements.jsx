@@ -103,7 +103,6 @@ export const SocialMediaWrap = styled.div`
     flex-direction: column;
   }
 `
-
 export const SocialLogo = styled(Link)`
   color: #fff;
   justify-self: start;
@@ -123,7 +122,7 @@ export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 100px;
 `
 export const SocialIconLink = styled.a`
   color: #fff;
