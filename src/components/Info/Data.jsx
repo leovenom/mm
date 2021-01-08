@@ -58,7 +58,7 @@ export const homeObjFour = {
   description: 'Desde 1997, nossa missão é oferecer serviços de excelência na área de contabilidade gerencial, acompanhando nossos clientes de perto.',
   buttonLabel: 'Entre em contato',
   imgStart: false,
-  img: '/images/svg-3.svg',
+  img: '/images/quem-somos.png',
   alt: 'car',
   primary: false,
   darkText: true
