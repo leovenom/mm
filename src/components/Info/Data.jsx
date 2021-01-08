@@ -1,21 +1,4 @@
 export const homeObjOne = {
-  id: 'about',
-  lightBg: false,
-  lightText: true,
-  lighttextDesc: true,
-  topLine: 'MICROEMPREENDEDOR',
-  headline: 'Assessoria Contábil para MEI',
-  description: 'Nossa equipe de profissionais experientes ajuda você a se legalizar e acompanhar toda rotina contábil, fiscal e trabalhista.',
-  buttonLabel: 'Preciso de um contador',
-  imgStart: false,
-  img: '/images/svg-1.svg',
-  alt: 'car',
-  dark: true,
-  primary: true,
-  darkText: false
-};
-
-export const homeObjTwo = {
   id: 'discover',
   lightBg: true,
   lightText: false,
@@ -32,7 +15,40 @@ export const homeObjTwo = {
   darkText: true
 };
 
+export const homeObjTwo = {
+  id: 'about',
+  lightBg: true,
+  lightText: false,
+  lighttextDesc: false,
+  topLine: 'ABERTURA DE EMPRESA',
+  headline: 'Abra sua empresa sem sair de casa',
+  description: 'Nossa equipe de profissionais experientes ajuda você a se legalizar, oferecendo serviços de abertura e encerramento de empresas, assim como alterações contratuais.',
+  buttonLabel: 'Solicite uma proposta',
+  imgStart: false,
+  img: '/images/svg-5.svg',
+  alt: 'car',
+  dark: false,
+  primary: false,
+  darkText: true
+};
 export const homeObjThree = {
+  id: 'about',
+  lightBg: false,
+  lightText: true,
+  lighttextDesc: true,
+  topLine: 'MICROEMPREENDEDOR',
+  headline: 'Alvará para MEI no Rio de Janeiro',
+  description: 'Auxiliamos o MEI estabelecido no Município do Rio a fazer o pedido do Alvará e inscrição municipal para a emissão de Nota Carioca.',
+  buttonLabel: 'Preciso de um contador',
+  imgStart: false,
+  img: '/images/svg-1.svg',
+  alt: 'car',
+  dark: true,
+  primary: true,
+  darkText: false
+};
+
+export const homeObjFour = {
   id: 'signup',
   lightBg: true,
   lightText: false,

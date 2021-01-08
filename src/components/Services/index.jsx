@@ -17,7 +17,7 @@ const Services = () => {
         <ServicesCard>
         <ServicesIcon src={Icon2}/>
           <ServicesH2>Legalização de empresas</ServicesH2>
-          <ServicesP>Serviços de regularização de empresas e alterações contratuais.</ServicesP>
+          <ServicesP>Regularização de empresas e alterações contratuais.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
