@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebookSquare, FaLinkedin, FaMedium, FaWhatsapp } from 'react-icons/fa'
-import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights, FooterLinkP, FooterLinkMap } from './FooterElements'
+import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights, FooterLinkP, FooterLinkMap, FooterLinkMapx } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
 
 const Footer = () => {
@@ -36,15 +36,22 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Contatos</FooterLinkTitle>
               <FooterLink to='/'>(21) 2490-2500</FooterLink>
-              <FooterLinkMap href='https://wa.link/c4ijlu'>WhatsApp <FaWhatsapp /> </FooterLinkMap>
+              <FooterLinkMapx href='https://wa.link/c4ijlu'>WhatsApp <FaWhatsapp /> </FooterLinkMapx>
               <FooterLink to='/'>contato@macedoemuzzio.com.br</FooterLink>
+              <br/>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Siga-nos</FooterLinkTitle>
+                <FooterLinkMapx href='https://medium.com/@macedoemuzzio' target='_blank' arial-label='Instagram'>Blog</FooterLinkMapx>
+                <FooterLinkMapx href='https://www.facebook.com/macedoemuzzio/' target='_blank' arial-label='Facebook'>Facebook</FooterLinkMapx>
+                <FooterLinkMapx href='https://www.linkedin.com/company/macedoemuzzio/' target='_blank' arial-label='Linkedin'>Linkedin</FooterLinkMapx>
             </FooterLinkItems>
           </FooterLinkWrapper>
         </FooterLinkContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-            <img src="./images/MM_Logo_M_Branco.svg" alt="logo" height={65} />
+            <img src="./images/MM_Logo_M_Branco.svg" alt="logo" height={60} />
             </SocialLogo>
             <WebsiteRights>© {new Date().getFullYear()} Macedo & Muzzio Contabilidade Gerencial
             </WebsiteRights>

@@ -37,7 +37,7 @@ export const FooterLinkItems = styled.div`
   align-items: flex-start;
   margin: 16px;
   text-align: left;
-  width: 160px;
+  width: 200px;
   box-sizing: border-box;
   color: #fff;
 
@@ -81,6 +81,19 @@ export const FooterLinkMap = styled.a`
   font-size: 14px;
   line-height: 1.45rem;
   cursor: pointer;
+  margin-top: -5px;
+
+  &:hover {
+    color: #71C6FF;
+    transition: 0.3s ease-in-out;
+  }
+`
+export const FooterLinkMapx = styled.a`
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  cursor: pointer;
 
   &:hover {
     color: #71C6FF;
@@ -89,7 +102,7 @@ export const FooterLinkMap = styled.a`
 `
 
 export const SocialMedia = styled.section`
-  max-width: 1000px;
+  max-width: 1100px;
   width: 100%;
 `
 
