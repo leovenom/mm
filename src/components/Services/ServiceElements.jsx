@@ -74,7 +74,8 @@ export const ServicesH2 = styled.h2`
 `
 
 export const ServicesP = styled.p`
-  font-size: 1rem;
+  font-family: utopia-std, serif;
+  font-size: 1.05rem;
   text-align: center;
 `
 
