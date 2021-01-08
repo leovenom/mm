@@ -19,7 +19,7 @@ const Hero = () => {
         <HeroH1>Soluções contábeis para você e sua empresa</HeroH1>
         <HeroP>Escritório de contabilidade gerencial com mais de 20 anos de experiência no Rio de Janeiro</HeroP>
         <HeroBtnWrapper>
-          <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+          <Button to='services' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
           Conheça nossos serviços {hover ? <ArrowForward /> : <ArrowRight/>}
           </Button>
         </HeroBtnWrapper>
