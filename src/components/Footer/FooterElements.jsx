@@ -18,9 +18,11 @@ export const FooterWrap = styled.div`
 export const FooterLinkContainer = styled.div`
   display: flex;
   justify-content: center;
+  margin-left: 4rem;
 
   @media screen and (max-width: 820px) {
     padding-top: 32px;
+    margin-left: 0rem;
   }
 `
 
@@ -79,7 +81,7 @@ export const FooterLinkMap = styled.a`
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
-  line-height: 1.45rem;
+  line-height: 1.5rem;
   cursor: pointer;
   margin-top: -5px;
 

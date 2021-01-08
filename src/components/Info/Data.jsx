@@ -41,7 +41,7 @@ export const homeObjThree = {
   description: 'Auxiliamos o MEI estabelecido no Município do Rio a fazer o pedido do Alvará e inscrição municipal para a emissão de Nota Carioca.',
   buttonLabel: 'Preciso de um contador',
   imgStart: true,
-  img: '/images/svg-1.svg',
+  img: '/images/MICROEMPREENDEDOR-2.svg',
   alt: 'car',
   dark: false,
   primary: false,
