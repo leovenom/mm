@@ -17,15 +17,18 @@ const Footer = () => {
               <FooterLinkTitle>Macedo & Muzzio</FooterLinkTitle>
                 <FooterLinkP to='signup'
                   smooth={true} duration={500} spy={true} exact='true' offset={-80}>Quem somos</FooterLinkP>
-                <FooterLink to='/contact'>Fale conosco</FooterLink>
+                {/* <FooterLink to='/contact'>Fale conosco</FooterLink> */}
                 <FooterLinkP to='services'smooth={true} duration={500} spy={true} exact='true' offset={-80}>Nossos serviços</FooterLinkP>
+                <FooterLink to='/'> Termos de Uso </FooterLink>
+                <FooterLink to='/'> Política de Privacidade</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Escritório</FooterLinkTitle>
                 <FooterLinkMap href='//www.google.com/maps/place/Macedo+%26+Muzzio+Contabilidade+Gerencial/@-23.0096265,-43.4477423,17z/data=!3m1!4b1!4m5!3m4!1s0x9bdd26a7eceb15:0x2c6c1f2ac5c2de59!8m2!3d-23.0096265!4d-43.4455536'>
-                  Av. das Américas, 13733, sala 203
-                  Recreio dos Bandeirantes, 22790-701
+                  Av. das Américas, 13733
+                  sala 203 - Recreio <br/>
                   Rio de Janeiro/RJ
+                  22790-701
                 </FooterLinkMap>
             </FooterLinkItems>
           </FooterLinkWrapper>
@@ -45,10 +48,10 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>© {new Date().getFullYear()} Macedo & Muzzio Contabilidade Gerencial
             </WebsiteRights>
-            <WebsiteRights>
-            <FooterLink to='/'> Termos de Uso </FooterLink>|
+            {/* <WebsiteRights>
+              <FooterLink to='/'> Termos de Uso </FooterLink>|
               <FooterLink to='/'> Política de Privacidade</FooterLink>
-            </WebsiteRights>
+            </WebsiteRights> */}
             <SocialIcons>
             <SocialIconLink href='//medium.com/@macedoemuzzio' target='_blank' arial-label='Instagram'>
                 <FaMedium />

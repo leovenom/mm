@@ -79,6 +79,7 @@ export const FooterLinkMap = styled.a`
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
+  line-height: 1.45rem;
   cursor: pointer;
 
   &:hover {

@@ -9,9 +9,9 @@ const Sidebar = ({isOpen,toggle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to='about' onClick={toggle}>MEI</SidebarLink>
+          {/* <SidebarLink to='about' onClick={toggle}>MEI</SidebarLink> */}
           <SidebarLink to='discover' onClick={toggle}>Trocar de contador</SidebarLink>
-          <SidebarLink to='services' onClick={toggle}>Serviços</SidebarLink>
+          <SidebarLink to='services' onClick={toggle}>Nossos serviços</SidebarLink>
           <SidebarLink to='signup' onClick={toggle}>Quem somos</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
