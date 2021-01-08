@@ -51,7 +51,7 @@ export const TopLine = styled.p`
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.8px;
   text-transform: uppercase;
   margin-bottom: 16px;
 `
@@ -95,6 +95,7 @@ export const ButtonContact = styled(LinkR)`
   align-items: center;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  font-weight: 600;
   
   &:hover {
     transition: all 0.2s ease-in-out;

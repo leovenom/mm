@@ -41,7 +41,7 @@ export const NavLogo = styled(LinkR)`
 `
 export const Img = styled.img`
   @media screen and (max-width: 487px) {
-  width: 12rem;
+  width: 11rem;
   margin-bottom:0.5rem;
   }
 `
@@ -108,6 +108,7 @@ export const NavBtnLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  font-weight: 600;
 
   &:hover {
     transition: all 0.2s ease-in-out;
