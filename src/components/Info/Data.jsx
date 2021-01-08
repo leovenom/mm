@@ -16,7 +16,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: 'about',
+  id: 'services',
   lightBg: true,
   lightText: false,
   lighttextDesc: false,
@@ -33,19 +33,19 @@ export const homeObjTwo = {
 };
 export const homeObjThree = {
   id: 'about',
-  lightBg: false,
-  lightText: true,
-  lighttextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lighttextDesc: false,
   topLine: 'MICROEMPREENDEDOR',
   headline: 'Alvará para MEI no Rio de Janeiro',
   description: 'Auxiliamos o MEI estabelecido no Município do Rio a fazer o pedido do Alvará e inscrição municipal para a emissão de Nota Carioca.',
   buttonLabel: 'Preciso de um contador',
-  imgStart: false,
+  imgStart: true,
   img: '/images/svg-1.svg',
   alt: 'car',
-  dark: true,
-  primary: true,
-  darkText: false
+  dark: false,
+  primary: false,
+  darkText: true
 };
 
 export const homeObjFour = {

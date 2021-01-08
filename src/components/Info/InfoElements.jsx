@@ -14,7 +14,7 @@ export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
   height: 860px;
-  width: 100%auto;
+  width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
@@ -28,7 +28,7 @@ export const InfoRow = styled.div`
   grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 col2'` : `'col1 col1' 'col2 col2'`)}
+    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
   }
 `
 export const Column1 = styled.div`
