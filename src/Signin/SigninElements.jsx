@@ -73,11 +73,14 @@ export const FormH1 = styled.h1`
   font-size: 20px;
   font-weight: 400;
   text-align: center;
+  font-weight: 800;
+  letter-spacing: 1.4px;
 `
 export const FormLabel = styled.label`
   margin-bottom: 8px;
   font-size: 14px;
   color: #fff;
+  font-weight: 600;
 `
 export const FormInput = styled.input`
   padding: 14px 16px;
@@ -99,6 +102,7 @@ export const FormButton = styled.button`
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+  font-weight: 600;
 `
 export const Text = styled.span`
 text-align: center;
