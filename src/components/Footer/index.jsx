@@ -31,14 +31,11 @@ const Footer = () => {
                 22790-701
               </FooterLinkMap>
             </FooterLinkItems>
-          </FooterLinkWrapper>
-          <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Contatos</FooterLinkTitle>
               <FooterLink to='/'>(21) 2490-2500</FooterLink>
               <FooterLinkMapx href='https://wa.link/r3b8fp'>WhatsApp <FaWhatsapp /> </FooterLinkMapx>
               <FooterLink to='/'>contato@macedoemuzzio.com.br</FooterLink>
-              <br/>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Siga-nos</FooterLinkTitle>
