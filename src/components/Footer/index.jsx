@@ -19,8 +19,8 @@ const Footer = () => {
                 smooth={true} duration={500} spy={true} exact='true' offset={-80}>Quem somos</FooterLinkP>
               {/* <FooterLink to='/contact'>Fale conosco</FooterLink> */}
               <FooterLinkP to='services'smooth={true} duration={500} spy={true} exact='true' offset={-80}>Nossos serviços</FooterLinkP>
-              <FooterLink to='/'> Termos de Uso </FooterLink>
-              <FooterLink to='/'> Política de Privacidade</FooterLink>
+              <FooterLink to='/uso' > Termos de Uso </FooterLink>
+              <FooterLink to='/privacidade'> Política de Privacidade</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Escritório</FooterLinkTitle>
