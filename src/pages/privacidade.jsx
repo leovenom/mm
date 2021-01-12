@@ -23,19 +23,20 @@ const FormWrap = styled.div`
   flex-direction: column;
   justify-content: top;
   color: #fff;
-  margin: 40px 80px;
+  margin: 20px 30px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 760px) {
     height: 80%;
+  }
+  h1 {
+    justify-content: center;
+    display: flex;
+  }
+  h2 {
+    margin-bottom: 12px;
   }
 `
 const Icon = styled(Link)`
-  margin-left: 40px;
-  margin-top: 40px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  font-size: 32px;
 
   @media screen and (max-width: 480px) {
     justify-content: center;
@@ -44,14 +45,31 @@ const Icon = styled(Link)`
     margin-left: 0px;
   }
 `
+export const FormContent = styled.div`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 90px 150px;
+
+  @media screen and (max-width: 968px) {
+    padding: 10px;
+    margin: 40px 70px;
+  }
+  @media screen and (max-width: 680px) {
+    padding: 10px;
+    margin: 40px 10px;
+  }
+`
 
 function privacidade() {
   return (
     <>
       <Container>
+      <FormWrap>
         <Icon to='/'><img src="./images/MM_Logo_Horizontal_Branco_2.svg" alt="logo" title='voltar' height={65} /></Icon>
-          <FormWrap>
-            <h2>POLÍTICA DE PRIVACIDADE</h2>
+          <FormContent>
+            <h1>POLÍTICA DE PRIVACIDADE</h1>
             <br/>
             <h2>Política Privacidade</h2>                    
               <p>A sua privacidade é importante para nós. É política do Macedo & Muzzio Contabilidade Gerencial respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href='https://www.macedoemuzzio.com.br/'> Macedo & Muzzio Contabilidade Gerencial</a>, e outros sites que possuímos e operamos.</p>                    
@@ -62,8 +80,8 @@ function privacidade() {
               <p>Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</p>                    
               <p>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</p>                    
             <br/>
-
-            <h2>Política de Cookies Macedo & Muzzio Contabilidade Gerencial</h2>
+            <br/>
+            <h1>Política de Cookies Macedo & Muzzio Contabilidade Gerencial</h1>
             <br/>
             <h2>O que são cookies?</h2>                    
               <p>Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies. Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou 'quebrar' certos elementos da funcionalidade do site.</p>                    
@@ -108,6 +126,7 @@ function privacidade() {
               <h2>Mais informações</h2>                    
                 <p>Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</p>                    
                 <p>Esta política é efetiva a partir de <strong>January</strong>/<strong>2021</strong>.</p>
+            </FormContent>
           </FormWrap>
       </Container>
     </>
