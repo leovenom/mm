@@ -24,7 +24,7 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Escritório</FooterLinkTitle>
-              <FooterLinkMap href='//www.google.com/maps/place/Macedo+%26+Muzzio+Contabilidade+Gerencial/@-23.0096265,-43.4477423,17z/data=!3m1!4b1!4m5!3m4!1s0x9bdd26a7eceb15:0x2c6c1f2ac5c2de59!8m2!3d-23.0096265!4d-43.4455536'>
+              <FooterLinkMap href='//www.google.com/maps/place/Macedo+%26+Muzzio+Contabilidade+Gerencial/@-23.0096265,-43.4477423,17z/data=!3m1!4b1!4m5!3m4!1s0x9bdd26a7eceb15:0x2c6c1f2ac5c2de59!8m2!3d-23.0096265!4d-43.4455536' target='_blank' >
                 Av. das Américas, 13733<br/>
                 sala 203 - Recreio<br/>
                 Rio de Janeiro/RJ<br/>
@@ -34,7 +34,7 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Contatos</FooterLinkTitle>
               <FooterLink to='/'>(21) 2490-2500</FooterLink>
-              <FooterLinkMapx href='https://wa.link/r3b8fp'>WhatsApp <FaWhatsapp /> </FooterLinkMapx>
+              <FooterLinkMapx href='https://wa.link/r3b8fp' target='_blank' >WhatsApp <FaWhatsapp /> </FooterLinkMapx>
               <FooterLinkMapx href={`mailto:contato@macedoemuzzio.com.br`}>contato@macedoemuzzio.com.br</FooterLinkMapx>
             </FooterLinkItems>
             <FooterLinkItems>
