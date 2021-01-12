@@ -22,29 +22,17 @@ const SignIn = () => {
         <FormWrap>
           <Icon to='/'><img src="./images/MM_Logo_Horizontal_Branco_2.svg" alt="logo" title='voltar' height={65} /></Icon>
           <FormContent>
-            {/* <Form action='#'>
-              <FormH1>Fale conosco</FormH1>
-              <FormLabel htmlFor='for'>Email</FormLabel>
-                <FormInput htmlFor='email' required />
-              <FormLabel htmlFor='for'>Adicionar um assunto</FormLabel>
-                <FormInput htmlFor='password' required />
-              <FormButton type='submit'>Enviar</FormButton>
-              <Text>Obrigado</Text>
-            </Form> */}
-
             <Form onSubmit={sendEmail}>
               <FormH1>Fale conosco</FormH1>
               <FormLabel htmlFor='for'>Nome</FormLabel>
                 <FormInput htmlFor='nome' name='user_nome' placeholder="Seu nome" required />
-
-              {/* <FormLabel htmlFor='for' name='user_contato'>Telefone</FormLabel>
-                <FormInput htmlFor='contato' required /> */}
 
               <FormLabel htmlFor='for'>E-mail</FormLabel>
                 <FormInput htmlFor='email' type='email' name='user_email' placeholder="contato@email.com" required />
 
               <FormLabel htmlFor='for'>Mensagem</FormLabel>
                 <FormInputText htmlFor='mensagem' name="user_message" placeholder="Escreva aqui sua mensagem" required />
+                
               <FormButton type='submit' value='send'>Enviar</FormButton>
             </Form>
           </FormContent>
