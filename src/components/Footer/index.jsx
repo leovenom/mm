@@ -14,7 +14,7 @@ const Footer = () => {
         <FooterLinkContainer>
           <FooterLinkWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Macedo & Muzzio</FooterLinkTitle>
+              <FooterLinkTitle>Macedo &amp; Muzzio</FooterLinkTitle>
               <FooterLinkP to='signup'
                 smooth={true} duration={500} spy={true} exact='true' offset={-80}>Quem somos</FooterLinkP>
               {/* <FooterLink to='/contact'>Fale conosco</FooterLink> */}
@@ -35,7 +35,7 @@ const Footer = () => {
               <FooterLinkTitle>Contatos</FooterLinkTitle>
               <FooterLink to='/'>(21) 2490-2500</FooterLink>
               <FooterLinkMapx href='https://wa.link/r3b8fp'>WhatsApp <FaWhatsapp /> </FooterLinkMapx>
-              <FooterLink to='/'>contato@macedoemuzzio.com.br</FooterLink>
+              <FooterLinkMapx href={`mailto:contato@macedoemuzzio.com.br`}>contato@macedoemuzzio.com.br</FooterLinkMapx>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Siga-nos</FooterLinkTitle>
@@ -50,7 +50,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
             <img src="./images/MM_Logo_M_Branco.svg" alt="logo" height={60} />
             </SocialLogo>
-            <WebsiteRights>© {new Date().getFullYear()} Macedo & Muzzio Contabilidade Gerencial
+            <WebsiteRights>© {new Date().getFullYear()} Macedo &amp; Muzzio Contabilidade Gerencial
             </WebsiteRights>
             {/* <WebsiteRights>
               <FooterLink to='/'> Termos de Uso </FooterLink>|

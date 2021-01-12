@@ -72,7 +72,7 @@ function privacidade() {
             <h1>POLÍTICA DE PRIVACIDADE</h1>
             <br/>
             <h2>Política Privacidade</h2>                    
-              <p>A sua privacidade é importante para nós. É política do Macedo & Muzzio Contabilidade Gerencial respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href='https://www.macedoemuzzio.com.br/'> Macedo & Muzzio Contabilidade Gerencial</a>, e outros sites que possuímos e operamos.</p>                    
+              <p>A sua privacidade é importante para nós. É política do Macedo &amp; Muzzio Contabilidade Gerencial respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href='https://www.macedoemuzzio.com.br/'> Macedo &amp; Muzzio Contabilidade Gerencial</a>, e outros sites que possuímos e operamos.</p>                    
               <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.</p>                    
               <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p>                    
               <p>Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</p>                    
@@ -81,7 +81,7 @@ function privacidade() {
               <p>O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</p>                    
             <br/>
             <br/>
-            <h1>Política de Cookies Macedo & Muzzio Contabilidade Gerencial</h1>
+            <h1>Política de Cookies Macedo &amp; Muzzio Contabilidade Gerencial</h1>
             <br/>
             <h2>O que são cookies?</h2>                    
               <p>Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies. Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou 'quebrar' certos elementos da funcionalidade do site.</p>                    
@@ -116,11 +116,11 @@ function privacidade() {
                 </ul>   
                 <br/>                 
             <h2>Compromisso do Usuário</h2>                                
-              <p>O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Macedo & Muzzio Contabilidade Gerencial oferece no site e com caráter enunciativo, mas não limitativo:</p>                                        
+              <p>O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Macedo &amp; Muzzio Contabilidade Gerencial oferece no site e com caráter enunciativo, mas não limitativo:</p>                                        
                 <ul>                        
                   <li>A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</li>                        
                   <li>B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, ou sobre cassinos, <a href='https://ondeapostar.pt/' style={{color: 'inherit',fontWeight: 'normal',textDecoration:'none',}}>apostas online</a> (ex.: <a href='https://ondeapostar.pt/review/betway/' style={{color: 'inherit',fontWeight: 'normal',textDecoration:'none',}}>Betway</a>), jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</li>                        
-                  <li>C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Macedo & Muzzio Contabilidade Gerencial, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</li>                    
+                  <li>C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Macedo &amp; Muzzio Contabilidade Gerencial, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</li>                    
                 </ul>   
                 <br/>                                     
               <h2>Mais informações</h2>                    
