@@ -20,7 +20,7 @@ const SignIn = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to='/'><img src="./images/MM_Logo_Horizontal_Branco_2.svg" alt="logo" title='voltar' height={65} /></Icon>
+          <Icon to='/'><img src="./images/MM_Logo_Horizontal_Original_2.svg" alt="logo" title='voltar' width={350} /></Icon>
           <FormContent>
             <Form onSubmit={sendEmail}>
               <FormH1>Fale conosco</FormH1>

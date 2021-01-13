@@ -37,7 +37,7 @@ const FormWrap = styled.div`
   }
 `
 const Icon = styled(Link)`
-  margin-left: 160px;
+  margin-left: 164px;
 
   @media screen and (max-width: 820px) {
     justify-content: center;
@@ -68,7 +68,7 @@ function uso() {
     <>
       <Container>
       <FormWrap>
-        <Icon to='/'><img src="./images/MM_Logo_Horizontal_Branco_2.svg" alt="logo" title='voltar' height={65}/></Icon>
+        <Icon to='/'><img src="./images/MM_Logo_Horizontal_Branco_2.svg" alt="logo" title='voltar' width={350}/></Icon>
 
         <FormContent>
         <h1>TERMOS DE USO</h1>
