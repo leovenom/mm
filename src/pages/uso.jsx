@@ -28,15 +28,18 @@ const FormWrap = styled.div`
   }
   a {
     color:#71C6FF;
+    font-family: utopia-std, serif;
   }
   h2 {
     margin-bottom: 12px;
   }
   p {
-    line-height: 1.4rem;
+    line-height: 1.6rem;
+    font-family: utopia-std, serif;
   }
   li {
-    line-height: 1.4rem;
+    line-height: 1.6rem;
+    font-family: utopia-std, serif;
   }
 
   @media screen and (max-width: 760px) {
@@ -48,6 +51,9 @@ const FormWrap = styled.div`
 `
 const Icon = styled(Link)`
   margin-left: 164px;
+  color:#71C6FF;
+  text-decoration: none;
+  font-weight: 600;
 
   @media screen and (max-width: 820px) {
     justify-content: center;
@@ -80,7 +86,8 @@ function uso() {
       <Container>
       <FormWrap>
         <Icon to='/'><img src="./images/MM_Logo_Horizontal_Original_2.svg" alt="logo" title='voltar' width={350}/></Icon>
-
+        <br/>
+        <Icon to='/'>Voltar</Icon>
         <FormContent>
         <h1>TERMOS DE USO</h1>
         <br/>
