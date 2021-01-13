@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import ScrollToTop from '../components/ScrollToTop';
+import { MdArrowBack } from 'react-icons/md'
 
 const Container = styled.div`
   /* min-height: 692px;
@@ -30,6 +31,9 @@ const FormWrap = styled.div`
     color:#71C6FF;
     font-family: utopia-std, serif;
   }
+  h1 {
+    font-size: 48px;
+  }
   h2 {
     margin-bottom: 12px;
   }
@@ -51,9 +55,6 @@ const FormWrap = styled.div`
 `
 const Icon = styled(Link)`
   margin-left: 164px;
-  color:#71C6FF;
-  text-decoration: none;
-  font-weight: 600;
 
   @media screen and (max-width: 820px) {
     justify-content: center;
@@ -62,12 +63,26 @@ const Icon = styled(Link)`
     margin-left: 0px;
   }
 `
+const Voltar = styled(Link)`
+  color:#71C6FF;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  font-family: 'Raleway', sans-serif !important;
+  margin-bottom: 16px;
+  display: flex;
+`
+
 export const FormContent = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 90px 170px;
+  margin: 90px 175px;
 
   @media screen and (max-width: 968px) {
     padding: 10px;
@@ -78,6 +93,9 @@ export const FormContent = styled.div`
     margin: 40px 10px;
   }
 `
+const ArrowBack= styled(MdArrowBack)`
+  margin-right: 5px;
+`
 
 function uso() {
   return (
@@ -86,10 +104,9 @@ function uso() {
       <Container>
       <FormWrap>
         <Icon to='/'><img src="./images/MM_Logo_Horizontal_Original_2.svg" alt="logo" title='voltar' width={350}/></Icon>
-        <br/>
-        <Icon to='/'>Voltar</Icon>
         <FormContent>
-        <h1>TERMOS DE USO</h1>
+        <Voltar to='/'>{<ArrowBack />}Voltar</Voltar>
+        <h1>Termos de uso</h1>
         <br/>
         <h2>1. Termos</h2>
           <p>Ao acessar ao site <a href='https://www.macedoemuzzio.com.br/'>Macedo &amp; Muzzio Contabilidade Gerencial</a>
