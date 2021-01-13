@@ -23,7 +23,7 @@ const FormWrap = styled.div`
   flex-direction: column;
   justify-content: top;
   color: #fff;
-  margin: 20px 30px;
+  margin: 10px 30px;
 
   @media screen and (max-width: 760px) {
     height: 80%;
@@ -37,8 +37,9 @@ const FormWrap = styled.div`
   }
 `
 const Icon = styled(Link)`
+  margin-left: 164px;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 820px) {
     justify-content: center;
     display: flex;
     margin-top: 35px;
@@ -67,7 +68,7 @@ function uso() {
     <>
       <Container>
       <FormWrap>
-        <Icon to='/'><img src="./images/MM_Logo_Horizontal_Branco_2.svg" alt="logo" title='voltar' height={65}/></Icon>
+        <Icon to='/'><img src="./images/MM_Logo_Horizontal_Branco_2.svg" alt="logo" title='voltar' width={350}/></Icon>
 
         <FormContent>
         <h1>TERMOS DE USO</h1>
