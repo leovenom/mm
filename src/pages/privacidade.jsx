@@ -11,29 +11,31 @@ const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: linear-gradient(
-    108deg,
-    rgba( 15, 38, 92, 1) 0%,
-    rgba( 113, 198, 255, 1) 100%
-  );
+  background:#E7E8EA;
 `
 const FormWrap = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: top;
-  color: #fff;
+  color: #0F265C;
   margin: 10px 30px;
+    
+  ul {
+    margin-left: 20px;
+  }
+  a {
+    color:#71C6FF;
+  }
+  h2 {
+    margin-bottom: 12px;
+  }
 
   @media screen and (max-width: 760px) {
     height: 80%;
   }
-  h1 {
-    justify-content: center;
-    display: flex;
-  }
-  h2 {
-    margin-bottom: 12px;
+  ul {
+    margin-left: 16px;
   }
 `
 const Icon = styled(Link)`
@@ -51,7 +53,7 @@ export const FormContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 90px 150px;
+  margin: 90px 170px;
 
   @media screen and (max-width: 968px) {
     padding: 10px;
@@ -68,7 +70,7 @@ function privacidade() {
     <>
       <Container>
       <FormWrap>
-        <Icon to='/'><img src="./images/MM_Logo_Horizontal_Branco_2.svg" alt="logo" title='voltar' width={350} /></Icon>
+        <Icon to='/'><img src="./images/MM_Logo_Horizontal_Original_2.svg" alt="logo" title='voltar' width={350} /></Icon>
           <FormContent>
             <h1>POLÍTICA DE PRIVACIDADE</h1>
             <br/>
@@ -120,13 +122,13 @@ function privacidade() {
               <p>O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Macedo &amp; Muzzio Contabilidade Gerencial oferece no site e com caráter enunciativo, mas não limitativo:</p>                                        
                 <ul>                        
                   <li>A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</li>                        
-                  <li>B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, ou sobre cassinos, <a href='https://ondeapostar.pt/' style={{color: 'inherit',fontWeight: 'normal',textDecoration:'none',}}>apostas online</a> (ex.: <a href='https://ondeapostar.pt/review/betway/' style={{color: 'inherit',fontWeight: 'normal',textDecoration:'none',}}>Betway</a>), jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</li>                        
+                  <li>B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, ou sobre cassinos, <a href='https://ondeapostar.pt/' style={{color: '#71C6FF',fontWeight: 'normal',textDecoration:'none',}}>apostas online</a> (ex.: <a href='https://ondeapostar.pt/review/betway/' style={{color: '#71C6FF',fontWeight: 'normal',textDecoration:'none',}}>Betway</a>), jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</li>                        
                   <li>C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Macedo &amp; Muzzio Contabilidade Gerencial, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</li>                    
                 </ul>   
                 <br/>                                     
               <h2>Mais informações</h2>                    
                 <p>Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</p>                    
-                <p>Esta política é efetiva a partir de <strong>January</strong>/<strong>2021</strong>.</p>
+                <p>Esta política é efetiva a partir de <strong>Janeiro</strong>/<strong>2021</strong>.</p>
             </FormContent>
           </FormWrap>
       </Container>
