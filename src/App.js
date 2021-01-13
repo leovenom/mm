@@ -7,14 +7,16 @@ import Uso from './pages/uso';
 
 function App() {
   return (
-    <Router history={HashRouter}>
-      <Switch>
-        <Route path='/' component={Home} exact />
-        <Route path='/contact' component={SigninPage}/>
-        <Route path='/privacidade' component={Privacidade} />
-        <Route path='/uso' component={Uso}/>
-      </Switch>
-    </Router>
+    <HashRouter>
+      <Router>
+        <Switch>
+          <Route path='/' component={Home} exact />
+          <Route path='/contact' component={SigninPage}/>
+          <Route path='/privacidade' component={Privacidade} />
+          <Route path='/uso' component={Uso}/>
+        </Switch>
+      </Router>
+    </HashRouter>
   );
 }
 
