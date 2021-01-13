@@ -12,7 +12,7 @@ const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background:#E7E8EA;
+  background:#fff;
 `
 const FormWrap = styled.div`
   height: 100%;
@@ -24,12 +24,19 @@ const FormWrap = styled.div`
 
   ol {
     margin-left: 20px;
+    
   }
   a {
     color:#71C6FF;
   }
   h2 {
     margin-bottom: 12px;
+  }
+  p {
+    line-height: 1.4rem;
+  }
+  li {
+    line-height: 1.4rem;
   }
 
   @media screen and (max-width: 760px) {

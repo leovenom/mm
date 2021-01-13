@@ -10,7 +10,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background:#E7E8EA;
+  background:#fff;
 `
 export const FormWrap = styled.div`
   height: 100%;
@@ -93,14 +93,25 @@ export const FormInputText = styled.textarea`
 `
 export const FormButton = styled.button`
   background: #71C6FF;
-  padding: 16px 0;
+  padding: 10px 22px;
   border: none;
-  border-radius: 4px;
   color: #fff;
   font-size: 20px;
-  cursor: pointer;
-  font-weight: 600;
   letter-spacing: 1.8px;
+  border-radius: 50px;
+  white-space: nowrap;
+  color: #0F265C;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-weight: 600;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #0F265C;
+  }
 `
 export const Text = styled.span`
 text-align: center;
