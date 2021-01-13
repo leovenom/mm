@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import ScrollToTop from '../components/ScrollToTop';
 
 const Container = styled.div`
   /* min-height: 692px;
@@ -68,6 +69,7 @@ export const FormContent = styled.div`
 function privacidade() {
   return (
     <>
+    <ScrollToTop />
       <Container>
       <FormWrap>
         <Icon to='/'><img src="./images/MM_Logo_Horizontal_Original_2.svg" alt="logo" title='voltar' width={350} /></Icon>
