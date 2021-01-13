@@ -23,7 +23,7 @@ const FormWrap = styled.div`
   flex-direction: column;
   justify-content: top;
   color: #fff;
-  margin: 20px 30px;
+  margin: 10px 30px;
 
   @media screen and (max-width: 760px) {
     height: 80%;
@@ -37,8 +37,9 @@ const FormWrap = styled.div`
   }
 `
 const Icon = styled(Link)`
+  margin-left: 160px;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 820px) {
     justify-content: center;
     display: flex;
     margin-top: 35px;
