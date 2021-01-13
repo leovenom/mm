@@ -50,14 +50,9 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
             <img src="./images/MM_Logo_M_Branco.svg" alt="logo" height={60} />
             </SocialLogo>
-            <WebsiteRights>© {new Date().getFullYear()} Macedo &amp; Muzzio Contabilidade Gerencial
-            </WebsiteRights>
-            {/* <WebsiteRights>
-              <FooterLink to='/'> Termos de Uso </FooterLink>|
-              <FooterLink to='/'> Política de Privacidade</FooterLink>
-            </WebsiteRights> */}
+            <WebsiteRights>© {new Date().getFullYear()} Macedo &amp; Muzzio Contabilidade Gerencial</WebsiteRights>
             <SocialIcons>
-            <SocialIconLink href='//medium.com/@macedoemuzzio' target='_blank' arial-label='Instagram'>
+              <SocialIconLink href='//medium.com/@macedoemuzzio' target='_blank' arial-label='Instagram'>
                 <FaMedium />
               </SocialIconLink>
               <SocialIconLink href='//www.linkedin.com/company/macedoemuzzio/' target='_blank' arial-label='Linkedin'>
