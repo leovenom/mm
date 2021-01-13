@@ -27,15 +27,18 @@ const FormWrap = styled.div`
   }
   a {
     color:#71C6FF;
+    font-family: utopia-std, serif;
   }
   h2 {
     margin-bottom: 12px;
   }
   p {
-    line-height: 1.4rem;
+    line-height: 1.6rem;
+    font-family: utopia-std, serif;
   }
   li {
-    line-height: 1.4rem;
+    line-height: 1.6rem;
+    font-family: utopia-std, serif;
   }
 
   @media screen and (max-width: 760px) {
@@ -47,6 +50,9 @@ const FormWrap = styled.div`
 `
 const Icon = styled(Link)`
   margin-left: 164px;
+  color:#71C6FF;
+  text-decoration: none;
+  font-weight: 600;
 
   @media screen and (max-width: 820px) {
     justify-content: center;
@@ -79,6 +85,8 @@ function privacidade() {
       <Container>
       <FormWrap>
         <Icon to='/'><img src="./images/MM_Logo_Horizontal_Original_2.svg" alt="logo" title='voltar' width={350} /></Icon>
+        <br/>
+        <Icon to='/'>Voltar</Icon>
           <FormContent>
             <h1>POLÍTICA DE PRIVACIDADE</h1>
             <br/>
@@ -127,12 +135,10 @@ function privacidade() {
                 </ul>   
                 <br/>                 
             <h2>Compromisso do Usuário</h2>                                
-              <p>O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Macedo &amp; Muzzio Contabilidade Gerencial oferece no site e com caráter enunciativo, mas não limitativo:</p>                                        
-                <ul>                        
-                  <li>A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</li>                        
-                  <li>B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, ou sobre cassinos, <a href='https://ondeapostar.pt/' style={{color: '#71C6FF',fontWeight: 'normal',textDecoration:'none',}}>apostas online</a> (ex.: <a href='https://ondeapostar.pt/review/betway/' style={{color: '#71C6FF',fontWeight: 'normal',textDecoration:'none',}}>Betway</a>), jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</li>                        
-                  <li>C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Macedo &amp; Muzzio Contabilidade Gerencial, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</li>                    
-                </ul>   
+              <p>O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Macedo &amp; Muzzio Contabilidade Gerencial oferece no site e com caráter enunciativo, mas não limitativo:</p>                                            
+                <p>A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;</p>                        
+                <p>B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, ou sobre cassinos, <a href='https://ondeapostar.pt/' style={{color: '#71C6FF',fontWeight: 'normal',textDecoration:'none',}}>apostas online</a> (ex.: <a href='https://ondeapostar.pt/review/betway/' style={{color: '#71C6FF',fontWeight: 'normal',textDecoration:'none',}}>Betway</a>), jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;</p>                        
+                <p>C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Macedo &amp; Muzzio Contabilidade Gerencial, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.</p>                    
                 <br/>                                     
               <h2>Mais informações</h2>                    
                 <p>Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</p>                    
