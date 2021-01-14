@@ -1,4 +1,4 @@
-/contact /contact
-/privacidade /privacidade 
-/uso /uso
+/contact /contact 200
+/privacidade /privacidade 301
+/uso /uso 302
 /en/* /en/404.html 404
