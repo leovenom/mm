@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, HashRouter } from  'react-router-dom'
+import {BrowserRouter as Router, Switch, Route } from  'react-router-dom'
 import Home from './pages';
 import SigninPage from './pages/signin';
 import Privacidade from './pages/privacidade';
@@ -7,7 +7,6 @@ import Uso from './pages/uso';
 
 function App() {
   return (
-    <HashRouter>
       <Router>
         <Switch>
           <Route path='/' component={Home} exact />
@@ -16,7 +15,6 @@ function App() {
           <Route path='/uso' component={Uso}/>
         </Switch>
       </Router>
-    </HashRouter>
   );
 }
 
