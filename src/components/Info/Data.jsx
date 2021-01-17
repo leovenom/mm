@@ -29,7 +29,7 @@ export const homeObjTwo = {
   alt: 'car',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 export const homeObjThree = {
   id: 'about',
@@ -45,7 +45,7 @@ export const homeObjThree = {
   alt: 'car',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
 export const homeObjFour = {
