@@ -34,23 +34,21 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             <NavItem>
               <NavLinks to='signup'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Quem somos</NavLinks>
-            </NavItem>
-            {/* <NavItem>
-              <NavLinks to='about'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >MEI</NavLinks>
-            </NavItem> */}
-            <NavItem>
-              <NavLinks to='discover'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Trocar de contador</NavLinks>
+                smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                >Quem somos
+              </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='services'
-              smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Nossos serviços</NavLinks>
+                smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                >Nossos serviços
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to='discover'
+                smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                >Trocar de contador
+              </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
