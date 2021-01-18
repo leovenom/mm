@@ -32,7 +32,7 @@ const Info = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, d
             </Column1>
             <Column2>
               <ImgWrap>
-              <Fade right>
+              <Fade left>
                 <Img src={img} alt={alt}/>
               </Fade>
               </ImgWrap>
