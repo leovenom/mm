@@ -37,7 +37,7 @@ export const Icon = styled(Link)`
     margin-left: 0px;
   }
   @media screen and (max-width: 400px) {
-    margin-top: 15px;
+    margin-top: 0px;
   }
 `
 export const FormContent = styled.div`
