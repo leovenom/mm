@@ -18,9 +18,9 @@ export const FormWrap = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  @media screen and (max-width: 400px) {
+  /* @media screen and (max-width: 400px) {
     height: 80%;
-  }
+  } */
 `
 export const Icon = styled(Link)`
   margin-left: 190px;
