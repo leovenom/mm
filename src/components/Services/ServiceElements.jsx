@@ -14,7 +14,7 @@ export const ServicesContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 1100px;
+    height: 1200px;
   }
  `
 export const ServicesWrapper = styled.div`
@@ -67,6 +67,7 @@ export const ServicesH1 = styled.h1`
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
+    text-align: center;
   }  
 `
 export const ServicesH2 = styled.h2`
