@@ -18,9 +18,9 @@ export const FormWrap = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  /* @media screen and (max-width: 400px) {
-    height: 100%;
-  } */
+  @media screen and (max-width: 400px) {
+    height: 80%;
+  }
 `
 export const Icon = styled(Link)`
   margin-left: 190px;
@@ -36,9 +36,6 @@ export const Icon = styled(Link)`
     margin-top: 35px;
     margin-left: 0px;
   }
-  @media screen and (max-width: 480px) {
-    margin-top: 5px;
-  }
 `
 export const FormContent = styled.div`
   height: 100%;
@@ -48,7 +45,6 @@ export const FormContent = styled.div`
 
   @media screen and (max-width: 480px) {
     padding: 10px;
-    justify-content: end;
   }
 `
 export const Form = styled.form`
