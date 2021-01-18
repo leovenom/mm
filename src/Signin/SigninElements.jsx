@@ -19,7 +19,7 @@ export const FormWrap = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 400px) {
-    height: 100%;
+    height: 80%;
   }
 `
 export const Icon = styled(Link)`
