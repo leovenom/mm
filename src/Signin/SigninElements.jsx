@@ -19,7 +19,7 @@ export const FormWrap = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 400px) {
-    height: 95%;
+    height: 100%;
   }
 `
 export const Icon = styled(Link)`
@@ -35,6 +35,9 @@ export const Icon = styled(Link)`
     display: flex;
     margin-top: 35px;
     margin-left: 0px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-top: 15px;
   }
 `
 export const FormContent = styled.div`
