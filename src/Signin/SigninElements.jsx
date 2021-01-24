@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  min-height: 692px;
+  height: 692px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -19,11 +19,10 @@ export const FormWrap = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 400px) {
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    -webkit-justify-content: start;
   }
 `
 export const Icon = styled(Link)`
@@ -52,7 +51,7 @@ export const FormContent = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 480px) {
-    padding: 10px;
+    padding: 0 10px;
     justify-content: start;
   }
 `
