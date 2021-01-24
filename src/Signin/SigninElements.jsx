@@ -17,9 +17,8 @@ export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   @media screen and (max-width: 400px) {
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -32,7 +31,6 @@ export const Icon = styled(Link)`
   color: #fff;
   font-weight: bold;
   font-size: 32px;
-
   @media screen and (max-width: 820px) {
     justify-content: center;
     display: flex;
@@ -49,15 +47,14 @@ export const FormContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   @media screen and (max-width: 480px) {
-    padding: 0 10px;
+    padding: 10px;
   }
 `
 export const Form = styled.form`
   background-color: #0F265C;
   max-width: 400px;
-  height: 100%;
+  height: auto;
   width: 100%;
   z-index: 1;
   display: grid;
@@ -113,7 +110,6 @@ export const FormButton = styled.button`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   font-weight: 600;
-
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
