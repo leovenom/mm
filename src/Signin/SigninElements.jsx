@@ -11,6 +11,9 @@ export const Container = styled.div`
   /* z-index: 0; */
   /* overflow: hidden; */
   background:#fff;
+  @media screen and (max-width: 400px) {
+  height: 100%;
+  }
 `
 export const FormWrap = styled.div`
   height: 100%;
@@ -21,7 +24,7 @@ export const FormWrap = styled.div`
     height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
   }
 `
 export const Icon = styled(Link)`
